@@ -29,6 +29,7 @@ section .text
     mov eax, [num1]
     mov ebx, [num2]
 
+    ;xor swaping
     xor eax, ebx
     xor ebx, eax
     xor eax, ebx
